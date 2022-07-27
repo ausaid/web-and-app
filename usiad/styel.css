@@ -1,0 +1,252 @@
+/*====================
+GLOBAL STYLES
+======================
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+}
+
+body{
+    font-family: 'dosis', sans-serif;
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.5em;
+}
+
+/*==========
+HERO SECTION
+============
+*/
+
+.hero{
+    background: linear-gradient(to right bottom,  #2196f3 ,#009688);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+.menu{
+  width: 100%;
+  background: yellow;
+  height: 40px;
+  
+}
+
+.menu ul{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.menu ul li{
+  list-style: none;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  line-height: 40px;
+  padding: 0px 15px;
+  color: black;
+  font-weight: bold;
+}
+
+/*==========
+services
+==========*/
+.services{
+  width: 100%;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 100px;
+  padding: 5vh 1vw;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+
+
+
+/* add style */
+.servicseh1{
+  width: 100%;
+  margin-top: 1vh;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+/* remove style and div */
+/* .col-wapper{
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+} */
+
+.sevicse-col{
+   width: 33.33%;
+   float: left;
+   padding: 10px 30px 10px 30px;
+}
+
+.sevicse-col img{
+  width: 80px;
+  max-width: 100%;
+}
+
+/* .col-wapper::after{
+  clear: both;
+  display: table;
+  content: "";
+} */
+
+/*==========
+about us section
+==========*/
+
+.aboutus{
+  padding: 100px 0vw;
+  
+  text-align: center;
+  background-image: url(img/robot.jpg);
+  background-attachment: fixed ;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  
+  
+  /* add this line for image width = 100%  */
+  background-size: 100%;
+
+}
+
+.aboutus-content{
+   width: 80%;
+   margin: auto;
+   background-color: darkblue;
+   margin: 30px;
+   font-size: 1.1em;
+}
+
+.about-btn{
+  background: #b6d821a1;
+  padding: 10px;
+  margin-top: 30px ;
+  border: none;
+  outline: 1px solid blue;
+  cursor: pointer;
+}
+/*==========
+team section
+==========*/
+
+.myteam{
+  padding: 0vh 3vw;
+  display: flex;
+  margin-bottom: 3vh;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.team{
+  padding: 3vh 3vw;
+}
+
+.team-member{
+  width: 50%;
+  text-align: center;
+
+}
+.our-team{
+  margin: 3vh 0vh;
+  text-align: center;
+}
+
+
+/* .team-wapper{
+  width: 90%;
+  padding-top: 50px;
+  height: auto;
+}
+
+.col-team{
+  width: 33.33%;
+  float: left;
+  padding: 10px 30px 10px 30px;
+}
+
+.col-team col img{
+  width: 50px;
+  max-width: 100%;
+} */
+
+/*========
+CONTACT
+========*/
+
+.contect{
+  width: 100%;
+  background-color: hsl(0%, 0%, 95%);
+  
+}
+
+.cta{
+  background-color: yellow;
+  width: 100%;
+  padding:30px 5px 30px 5px;
+  text-align: center;
+}
+
+.cta-col{
+  width: 33.33%;
+  float: left;
+}
+
+.cta-col h3{
+  display: inline;
+}
+.cta ::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+/*========
+CONTACT main
+========*/
+.contactinfo{
+  width: 100%;
+  padding: 30px 5px 30px 5px;
+  text-align: center;
+}
+
+.contactinfo ::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contactinfo1{
+  width: 35%;
+  float: left;
+  text-align: center;
+  padding: 30px 5px 30px 5px;
+}
+
+.contactinfo2{
+  width: 65%;
+  padding: 30px 5px 30px 5px; 
+}
+
+.social-icons{
+  padding: 0mm;
+  border: 1px solid black;
+ 
+}
